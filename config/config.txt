@@ -1,0 +1,9 @@
+{
+    "corpus_file_path": "./data/reuters_news_dataset_Politics_3000.xlsx",
+    "base_dir_path": "./data/",
+    "records": 5,
+	"stopwords_file_path": "./data/stopwords_list.txt",
+	"spacy_nlp_model_name":"en_core_web_sm",
+	"min_df":3,
+    "filter_ner": "ORDINAL,NORP,GPE,CARDINAL,MONEY,DATE,LAW,FAC,QUANTITY,PERCENT,TIME,LANGUAGE,WORK_OF_ART,EVENT,PRODUCT"
+}
